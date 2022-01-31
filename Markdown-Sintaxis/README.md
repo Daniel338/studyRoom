@@ -1,11 +1,11 @@
-# Study Syntax of Markdown  
+Study Syntax of Markdown
+========================
 
 En el lenguaje Markdown encontraras **tres tipos de elementos basicos**(bloque, linea y varios) que a su vez  
 engloban el resto de la sintaxis. considera esto una *cheat sheet* con la que guiarte.  
 
-## Elementos de bloque
-
----
+Elementos de bloque
+-------------------
 
 Un elemento en bloque ocupa todo el espacio de su elemento padre (contenedor),  
 creando asi un "bloque".
@@ -161,14 +161,10 @@ ambos lados para alinear al centro.<br>
 | Pera    | Fruta | Verde  |
 ```
 
-## Elementos en linea  
-
----
-
+Elementos en linea
+------------------
 Un elemento en linea ocupa solo el espacio necesario para su contenido.  
 
 
-## Elementos varios: <br>
-
----
-
+Elementos varios: <br>
+-----------------
