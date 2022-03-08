@@ -22,7 +22,7 @@ Para generar un parrafo basta con escribir el texto. Si quieres generar un salto
 
 Tambien puedes usar la etiqueta `<br>` al final de la linea para generar un salto de linea.
 
-### Encabezados:  
+### Encabezados {#encabezados}:  
 Los encabezados se crean usando el carácter `#` delante de la oración. Los Encabezados  
 pueden ser de **diferentes niveles**, con tantos `#` seguidos como el nivel del encabezado.  
 
@@ -161,10 +161,60 @@ ambos lados para alinear al centro.<br>
 | Pera    | Fruta | Verde  |
 ```
 
+---
+
 Elementos en linea
 ------------------
-Un elemento en linea ocupa solo el espacio necesario para su contenido.  
+Un elemento en linea ocupa solo el espacio necesario para su contenido.<br>
 
+### Formato de texto: <br>
+A continuacion vamos a ver como formatear el texto a **negrita**, *cursiva*, o ***ambos***<br>
+formatos a la vez. Tambien ~~texto tachado~~<br>
+
+```markdown
+**Negrita**
+*Cursiva*
+***Negrita y cursiva***
+~~Texto tachado~~
+```
+
+### Enlaces:<br>
+Los enlaces se crean con el texto enlazada entre `[]` **corchetes**, y el link en cuestion <br>
+entre `()` **parentesis** <br>
+
+```markdown
+[google](https://www.google.com)
+```
+
+Enlaces a **puntos anclas**:<br>
+```markdown
+Enlace a la seccion [Encabezados](#encabezados)
+```
+
+Crear enlaces rapidamente  
+```markdown
+<https://www.google.com>
+```
+
+**direccion de email**: <br>
+```markdown
+<email@edulazaro.com>
+```
+Enlace con titulo: <br>
+Este titulo se mostrara cuando pongas el cursor encima del enlace.<br>
+```markdown
+Enlace a google [google.com](https://www.google.com "Buscador de Google")
+```
+
+**Enlaces a referencias**: <br>
+```markdown
+
+
+```
+
+
+
+---
 
 Elementos varios: <br>
 -----------------
