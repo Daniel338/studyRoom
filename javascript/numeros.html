@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Numeros con JS</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .numero {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <script type="text/javascript">
+        let mensajes = 
+                [
+                    "Hello World",
+                    "Mensaje uno",
+                    "Mensaje dos"
+                ];
+
+        for(mensaje of mensajes){
+            document.write(`<h1>${mensaje}</h1>`);
+        };
+
+        document.write("<hr><br>");
+
+        for(let numero = 1; numero < 11; numero++){
+            document.write("<h2>Numero: <span class='numero'>" + numero + "</span></h2>");
+        };
+    </script>
+</body>
+</html>
