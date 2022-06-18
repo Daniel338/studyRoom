@@ -22,7 +22,8 @@ Longitud maxima extendida:
 - 72 caracteres para la documentacion y comentarios
 > Esto para equipos de desarrollo que realmente quieran usar una longitud <br>
 > mayor de linea
-Nota: Cuando la longitud de una linea sea mayor a la establecida, se usara <br>
+
+**Nota**: Cuando la longitud de una linea sea mayor a la establecida, se usara <br>
 un salto de linea con el caracter `\n`.
 
 
