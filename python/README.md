@@ -20,6 +20,10 @@ Longitud maxima:
 Longitud maxima extendida:
 - 99 caracteres para el codigo
 - 72 caracteres para la documentacion y comentarios
+> Esto para equipos de desarrollo que realmente quieran usar una longitud <br>
+> mayor de linea
+Nota: Cuando la longitud de una linea sea mayor a la establecida, se usara <br>
+un salto de linea con el caracter `\n`.
 
 
 Python tiene una guia de estilos que se encuentra totalmente documentada en <br>
