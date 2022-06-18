@@ -3,10 +3,10 @@
 ## PEP-8: Guia de estilos
 
 ### Identacion:
+
 La **Identacion** en python es uno de los pilares del lenguaje, dado que define <br>
 los bloques logicos de codigo y la logica de los mismos.<br>
-
-En la guia oficial se estable la preferencia de indentacion en **4 espacios** <br>
+En la guia oficial se estable la preferencia de **indentacion en 4 espacios** <br>
 dado que las tabulaciones pueden ser interpretadas de diferente manera en <br>
 diferentes editores.<br>
 
